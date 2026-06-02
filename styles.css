@@ -9,3 +9,9 @@
     --progress:#D19BFF;
     --border:#2A2D3A;
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
