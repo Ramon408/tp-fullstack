@@ -15,3 +15,17 @@
     padding:0;
     box-sizing:border-box;
 }
+
+body{
+    font-family:'Space Grotesk',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+}
