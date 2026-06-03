@@ -116,4 +116,40 @@ display:flex;
 gap:20px;
 }
 
+.stats{
+display:flex;
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+flex:1;
+padding:25px;
+border-radius:20px;
+color:#12131A;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+min-height:140px;
+
+transition:all .3s ease;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h2{
+font-size:4rem;
+font-weight:700;
+line-height:1;
+}
+
+.card p{
+margin-top:10px;
+}
+
 
