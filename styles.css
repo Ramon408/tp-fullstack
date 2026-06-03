@@ -201,4 +201,35 @@ background:var(--progress);
 border-radius:20px;
 }
 
+.see-more{
+    margin-top:25px;
+}
 
+.see-more-btn{
+    background:none;
+    border:none;
+    color:#F2F2F7;
+
+    font-family:'Space Grotesk', sans-serif;
+    font-size:1.2rem;
+    font-weight:400;
+
+    cursor:pointer;
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    padding:0;
+}
+
+.see-more-btn:hover{
+    color:#D19BFF;
+}
+
+.arrow{
+    font-size:1rem;
+    margin-left:4px;
+    position:relative;
+    top:-1px;
+}
