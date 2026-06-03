@@ -152,4 +152,24 @@ line-height:1;
 margin-top:10px;
 }
 
+.purple{
+background-image:url("assets/images/Card violeta.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.orange{
+background-image:url("assets/images/Card naranja.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.coral{
+background-image:url("assets/images/Card coral.png");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
 
