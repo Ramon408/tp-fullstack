@@ -29,3 +29,28 @@ body{
     width:100%;
     max-width:1000px;
 }
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
+}
+
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo{
+    width:56px;
+    height:56px;
+    object-fit:contain;
+}
+
+.logo-container h2{
+    font-size:1.3rem;
+    font-weight:500;
+    color:#F2F2F7;
+}
